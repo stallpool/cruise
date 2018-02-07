@@ -23,7 +23,7 @@ tty.on('line', function (line) {
 ws.on('open', function () {
    send(JSON.stringify({AuthToken: authtoken || null}));
    if (cmd) {
-      send('0' + cmd + ' && exit\n')
+      send('0' + cmd + ' && exit || exit\n')
    } else {
       process.stdout.write('Welcome to Cruise Hole ...\n');
       tty.prompt();
