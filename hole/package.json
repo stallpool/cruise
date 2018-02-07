@@ -1,0 +1,15 @@
+{
+  "name": "hole",
+  "version": "0.1.0",
+  "description": "penetrate into insight of cruise",
+  "main": "hole.js",
+  "scripts": {
+    "test": "echo \"No Test\""
+  },
+  "author": "Seven Lju",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fast-text-encoding": "^1.0.0",
+    "ws": "^4.0.0"
+  }
+}
